@@ -1,0 +1,100 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Application Heading */
+#app-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.fas {
+    color: rgb(85, 83, 255);
+}
+
+/* Card */
+.card {
+    border-radius: 4px;
+    box-shadow: rgb(229, 229, 229) 0px 0px 0.9em;
+    background: rgb(250, 250, 250)
+}
+
+/* Card Title */
+.card .card-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* Task Title */
+#task-title {
+    font-weight: 700;   
+    font-size: 30px;
+}
+
+/* Section Text Color */
+button, input, optgroup, select, textarea {
+    color: rgb(0, 0, 0,);
+}
+
+/* Border */
+.collection {
+    border: 2px solid rgb(210, 210, 214);
+    border-radius: 4px;
+}
+
+/* Input */
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    border-bottom: 1px solid rgb(210, 210, 214);
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid rgb(85, 83, 255);
+    box-shadow: 0 1px 0 0 rgb(35, 32, 204);
+    font-size: 1.125rem;
+}
+
+.input-field label {
+    color: rgb(210, 210, 214);
+    font-size: 1.125rem;
+}
+
+/* Buttons */
+.btn {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 700;
+    border-style: solid;
+    border-color: rgb(85, 83, 255) rgb(85, 83, 255) rgb(85, 83, 255);
+    background: rgb(85, 83, 255);
+    box-shadow: rgb(229, 229, 229) 0px 0px 0em !important;
+}
+.btn:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-weight: 700;
+    outline: none;
+    border-color: rgb(35, 32, 204);
+    background: rgb(35, 32, 204);
+    box-shadow: rgb(229, 229, 229) 0px 0px 0em !important;
+}
+.clear-tasks {
+    color: rgb(85, 83, 255);
+    border-radius: 4px;
+    border-style: solid;
+    border-color: rgb(210, 201, 214);
+    background: transparent;
+    box-shadow: rgb(229, 229, 229) 0px 0px 0em !important;
+}
+.clear-tasks:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    outline: none;
+    border-color: rgb(85, 83, 255);
+    background: rgb(85, 83, 255);
+    box-shadow: rgb(229, 229, 229) 0px 0px 0em !important;
+}
