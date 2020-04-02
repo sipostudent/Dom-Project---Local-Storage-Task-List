@@ -9,4 +9,4 @@
 
 <h3 align="center">Interactive Front End Development</h3>
 
-<h4 align="center">A Local Storage Task List Application Which Manipulates The Document Object Model (DOM) Using JavaScript</h4>
+<h4 align="center">A Local Storage Task List Application Which Manipulates The Document Object Model (DOM) Using Only JavaScript</h4>
